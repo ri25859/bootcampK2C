@@ -1,0 +1,3 @@
+var json_data = '{"name": "Robby Indra Handika","address": "Jalan Panji Ulung, Panjeng, Jenangan, Ponorogo, Jawa Timur.","is_married": false,"hobbies": ["Traveling","Desain Grafis","Membaca"],"school": {"sd": "SD Negeri 003 Lubuk Baja - Batam","smp": "SMP Negeri 3 - Magetan","smk": "SMK Negeri 1 Bendo - Magetan"},"skills": [{"Pemograman": ["HTML","PHP","CSS","JS"]},{"Desain": ["Illustrator","Photoshop","AdobeXD"]},{"Lainnya": ["PremierePro","Blender","Cinema4D"]}]}';
+obj = JSON.parse(json_data);
+console.log(obj);
